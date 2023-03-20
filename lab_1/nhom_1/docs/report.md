@@ -14,14 +14,25 @@ classoption: oneside
 code-block-font-size: \scriptsize
 ---
 
+table
+
 # Lab 01:  Building Recommendation Systems
 
 ## K-Nearest Neighbors Recommendation
 
-### UBCF
+### UBCF: Q
 
-### IBCF
+### IBCF: P
 
-## MovieLens 1M Dataset
+### Metrics
+
+#### RMSE : P
+
+#### NDCG :
+
+##### Version 1 : Q
+##### Version 2 : P
+
+## MovieLens 1M Dataset: P
 
 ## References
