@@ -1,0 +1,31 @@
+---
+title: "Lab 01: A Gentle Introduction to Hadoop"
+author: ["nhom 1"]
+date: "2023-02-17"
+subtitle: "CSC14114 Big Data Application 19KHMT"
+lang: "en"
+titlepage: true
+titlepage-color: "0B1887"
+titlepage-text-color: "FFFFFF"
+titlepage-rule-color: "FFFFFF"
+titlepage-rule-height: 2
+book: true
+classoption: oneside
+code-block-font-size: \scriptsize
+---
+
+# Lab 01:  Building Recommendation Systems
+
+## K-Nearest Neighbors Recommendation
+
+### UBCF
+
+### IBCF
+
+## MovieLens 1M Dataset
+
+### Model
+
+### Process
+
+## References
