@@ -1,7 +1,7 @@
 ---
 title: "Lab 01: A Gentle Introduction to Hadoop"
 author: ["nhom 1"]
-date: "2023-02-17"
+date: "2023-03-20"
 subtitle: "CSC14114 Big Data Application 19KHMT"
 lang: "en"
 titlepage: true
@@ -23,9 +23,5 @@ code-block-font-size: \scriptsize
 ### IBCF
 
 ## MovieLens 1M Dataset
-
-### Model
-
-### Process
 
 ## References
