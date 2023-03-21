@@ -28,10 +28,17 @@ code-block-font-size: \scriptsize
 ## K-Nearest Neighbors Recommendation
 
 ### UBCF: Q
-This implementation algorithm has 3 function.
-+ The main function **ubcf** return 2 variables *rating_predicted* and *top_sims* with the 2-d array type. *rating_predicted* store the prediction score of items, which are samples of test dataset. And *top_sims* is the list of similar users order by similarity score decreasingly. 
-+ We compute similarity score between each user by function **calc_user_sim**, and store all similiraity score on 2-d matrix. After that, we sort each user's simlilarity scores and return as a *top_sims* variable. 
-+ We use the function **ubcf_predict_rating** to compute predction scores existed in test dataset. We store these scores on 2-d matrix *rating_predicted* variable. This variable has the same mask data as test dataset.
+
+According to the slide and theory taught in class, there are 4 step to compute UBCF:
+1. Calculating the average rating of all users, using function **calc_average_rating**..
+2. Calculating the similarity score of each user to other user, using function **calc_user_sim** and store all scores on 2-d array.
+3. For each user and similarity score, sort list similar users order by decreasing similarity scores.
+4. Based on K (top K), compute the prediction score of items by users that existed on test dataset, using **ubcf_predict_rating**
+
+To fulfill the requirement, we output 2 matrices:
+- *raing_predicted*: conpute prediction scores in test dataset, based on *test_mask*
+- *top_sims*: top user with the decreasing similarity scores for each user.
+
 ### IBCF: P
 
 ### Evaluation Metrics
